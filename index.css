@@ -1,0 +1,114 @@
+:root{--color:rgb(204, 202, 202)}
+
+
+body{margin: 0;
+    border: 20;
+    padding: 30;
+    background: linear-gradient(45deg, white,rgb(104, 104, 223),rgb(16, 211, 146),purple) ;
+    background-size: 400%;
+    animation: gradient 19s ease-in infinite;
+    
+}
+@keyframes gradient {
+
+0%{
+  background-position: 0% 50% ;
+}
+0%{
+  background-position: 100% 50% ;}
+100%{
+  background-position: 0% 50% ;}
+  100%{
+  background-position: 0% 50% ;}
+}
+.caja-superior{
+    margin: 20px;
+    
+    display: flex;
+    flex-direction:row-reverse ;
+ }
+
+.elementos-arriba{
+  display: flex;
+  margin-right: 50px; 
+  font-family: Arial, Helvetica, sans-serif; 
+}
+    .caja-del-medio{ padding: 122px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+                                       
+   
+.ImagenLogo{
+              display: flex;
+            justify-content: center;
+
+}
+
+.input { 
+        display: flex;
+        justify-content: center;
+        padding:10px;
+        
+
+}
+input{width: 550px;
+    height: 30px;
+   border-radius: 22px;
+  background-color:var(--color);
+color: black;}
+
+.button{display: flex;
+       justify-content: center;
+       padding: 31px;
+}
+
+button{padding: 18px;
+      border-radius: 80px;}
+
+footer{ background-color: var(--color);
+       
+        height: 50px;
+        display:flex;
+        font-family: Arial, Helvetica, sans-serif;
+    
+        
+      justify-content: space-between;
+       
+        
+        }
+
+        .footer-lado-izquierdo{
+                display: flex;
+            
+           
+                justify-content: space-around;
+                
+                      
+                    }
+                    .footer-lado-derecho{
+                  display: flex;
+                  
+                
+   }
+   p{
+      display: flex;
+       justify-content: space-between;
+       padding-left: 20px;
+       padding-right: 20px;
+       color: black;
+   }
+ .elemento-abajo{
+  background-color: var(--color);
+margin: 0;
+display: flex;
+height: 34px; 
+font-family: arial;}
+
+.parrafo{padding-left: 20px;
+}
+
+a{
+ color: black;
+ text-decoration: none;}
+
+ a:hover{color: rgb(27, 2, 250);}
